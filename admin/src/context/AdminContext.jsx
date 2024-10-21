@@ -13,7 +13,7 @@ const AdminContextProvider = (props) => {
 
 
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://doctor-appointment-app-1f11.onrender.com"
 
     const getAllDoctors = async () => {
         try {
